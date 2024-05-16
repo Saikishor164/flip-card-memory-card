@@ -1,5 +1,5 @@
 $(function(){
-  
+       
   function set(key, value) { localStorage.setItem(key, value); }
   function get(key)        { return localStorage.getItem(key); }
   function increase(el)    { set(el, parseInt( get(el) ) + 1); }
